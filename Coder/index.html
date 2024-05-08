@@ -6,12 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>SPECIAL DOCS</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
+	
 </head>
 <body>
 	<div id="container">
 		<h1 id="title"> REGISTRATION</h1>
 		<div id="form">
-			<input type="text" name="name" placeholder="Enter name"><br>
+			<input type="text" id="helly" name="name" placeholder="Enter name"><br>
 			<input type="text" name="school" list="schools" placeholder="select school"><br>
 			<datalist id="schools">
 				<option>GS RAMBURA Garcons </option>
@@ -34,10 +35,15 @@
 			<input type="number" name="Reg" placeholder="Enter registation number " max="6" maxlength="6">
 		</div>
 		<div  id="mama">
-			<button>Register</button>
+			<button onclick="reg()"><a href="home.html">Register</a> </button>
 			<button>log in</button>
 		</div>
 	</div>
 
 </body>
+<script type="text/javascript" src="index.js">
+	
+	
+
+</script>
 </html>
